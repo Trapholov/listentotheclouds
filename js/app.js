@@ -162,13 +162,13 @@ new Vue({
       player.pause();
     },
 
-    changeState: function () {
-      if (this.isPlaying) {
-        this.pause();
-      } else {
-        this.play();
-      }
-    },
+    // changeState: function () {
+    //   if (this.isPlaying) {
+    //     this.pause();
+    //   } else {
+    //     this.play();
+    //   }
+    // },
 
     listenTo: function (airport) {
       if (!airport) {
