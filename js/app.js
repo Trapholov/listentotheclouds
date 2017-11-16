@@ -200,7 +200,7 @@ new Vue({
         $("#stream").attr("src", url);
       }
 
-      $(".current").text(airport.text);
+      $(".current").text(airport.text + ' (' + airport.iata + ')');
       this.play();
     },
 
