@@ -185,6 +185,7 @@ new Vue({
           airport = aps[randomNum];
         }
       }
+
       if (!airport.code) return;
       this.activeCode = airport.code;
       this.activeAP = airport;
