@@ -189,6 +189,7 @@ new Vue({
       if (!airport.code) return;
       this.activeCode = airport.code;
       this.activeAP = airport;
+
       if (isLocalStorageNameSupported()) {
         localStorage.setItem("lastPlayed", airport.code);
       }
