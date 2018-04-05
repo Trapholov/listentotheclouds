@@ -198,7 +198,7 @@ new Vue({
         spaceModeOn();
       } else {
         spaceModeOff();
-        var url = "http://mtl2.liveatc.net/" + airport.code;
+        var url = "http://d.liveatc.net/" + airport.code;
         $("#stream").attr("src", url);
       }
 
